@@ -3,7 +3,7 @@ R code to reproduce the EU chart on "The Rise of Housing Prices Across the EU"
 
 I was able to replicate, in R, the chart on house prices in the EU seen in the [European Parliament site](https://www.europarl.europa.eu/topics/en/article/20241014STO24542/rising-housing-costs-in-the-eu-the-facts-infographics) with data from [Eurostat](https://ec.europa.eu/eurostat/databrowser/view/prc_hpi_a/default/table?lang=en)
 
-[!]()
+![plot](https://github.com/user-attachments/assets/8e81202e-c039-4e9b-8222-aedaf9eb903b)
 
 Code is fully usable and would be great to fine-tune it by including or modifying the following elements to make it more appealing:
 1) Place the country initials below rather than above (I tried with `strip.position = "bottom"` but it didn't) that will reduce the size of the chart as countries like Hungary has a very high index and that's is the plot limit while the others show a blank gap between their names and the plot.
